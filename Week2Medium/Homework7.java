@@ -12,9 +12,9 @@ class Product {
 
 public class Homework7 {
     public static void main(String[] args) {
-        Product p1 = new Product("Laptop", 50000, 10);
-        Product p2 = new Product("Phone", 30000, 15);
-        Product p3 = new Product("Tablet", 20000, 5);
+        Product p1 = new Product("Headphones", 1500, 20);
+        Product p2 = new Product("Smartwatch", 8000, 25);
+        Product p3 = new Product("Camera", 20000, 10);
         p1.calculateFinalPrice(); p2.calculateFinalPrice(); p3.calculateFinalPrice();
     }
 }

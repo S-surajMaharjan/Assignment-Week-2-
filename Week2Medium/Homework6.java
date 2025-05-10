@@ -13,9 +13,9 @@ class Employee {
 
 public class Homework6 {
     public static void main(String[] args) {
-        Employee e1 = new Employee("Alice", 50000, 6);
-        Employee e2 = new Employee("Bob", 40000, 3);
-        Employee e3 = new Employee("Charlie", 60000, 10);
+        Employee e1 = new Employee("Suraj", 50000, 6);
+        Employee e2 = new Employee("Momzee", 40000, 3);
+        Employee e3 = new Employee("Momzer", 60000, 10);
         e1.calculateBonus(); e2.calculateBonus(); e3.calculateBonus();
     }
 }

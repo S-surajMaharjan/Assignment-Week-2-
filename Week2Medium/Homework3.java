@@ -17,9 +17,9 @@ class Student {
 
 public class Homework3 {
     public static void main(String[] args) {
-        Student s1 = new Student("John", 85);
-        Student s2 = new Student("Sara", 72);
-        Student s3 = new Student("Mike", 45);
+        Student s1 = new Student("Suraj", 100);
+        Student s2 = new Student("Momzee", 75);
+        Student s3 = new Student("Momzer", 15);
         s1.calculateGrade(); s2.calculateGrade(); s3.calculateGrade();
     }
 }

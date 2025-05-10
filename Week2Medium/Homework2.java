@@ -1,5 +1,6 @@
 class BankAccount {
-    String accountHolderName, accountNumber;
+    String accountHolderName, 
+    accountNumber;
     double balance;
     BankAccount(String name, String number, double bal) {
         accountHolderName = name; accountNumber = number; balance = bal;
@@ -20,9 +21,9 @@ class BankAccount {
 
 public class Homework2 {
     public static void main(String[] args) {
-        BankAccount acc = new BankAccount("Alice", "A101", 1000);
+        BankAccount acc = new BankAccount("Suraj", "MZE1", 1000);
         acc.deposit(500);
-        acc.withdraw(2000);
-        acc.withdraw(300);
+        acc.withdraw(100);
+        acc.withdraw(10000);
     }
 }
